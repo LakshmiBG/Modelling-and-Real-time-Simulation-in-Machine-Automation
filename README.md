@@ -45,5 +45,15 @@ Modelling of the manipulator comprises of modelling of several components such a
 
 ### Hydraulics Model
 The model below shows the subsystem of hydraulic circuit for the individual cylinder. It consists of 4/3 valve and a cylinder. The valve has 4 inputs namely: supply pressure (constant pressure), tank pressure (constant zero), port A and port B pressure originating from the 
-cylinder block. The output flow from port A and B is the input to the cylinder along with the inputs velocity and displacement from the manipulator. The cylinder provides the force which goes into the manipulator to make movements. 
+cylinder block. The output flow from port A and B is the input to the cylinder along with the inputs velocity and displacement from the manipulator. The cylinder provides the force which goes into the manipulator to make movements.
+![image](https://user-images.githubusercontent.com/51742367/59421335-174e4000-8dd7-11e9-84b7-947ef811884c.png)
+
+## 3. Real-time implementation
+For the real time model the input signals received its signals from joysticks through the UDP send blocks and the output joint angles were received by the UDP receive blocks. The Simulink model was deployed into real time system by connecting with the target PC.
+
+## 4. GUI
+It consists of Supply pressure knob, On/Off switch and panels to show teh values of cylinder displacment, velocity and joint angles.
+
+## 5. Future Development
+The modelling could be more effective if it could be done in some 3D modelling software like CATIA or SolidWorks, if those 3d could be used for co-simulation along with MATLAB and Simulink it would be more effective. Also the choice of using other simulation tools such as GT-suite other than MATLAB will be appreciative.
 
