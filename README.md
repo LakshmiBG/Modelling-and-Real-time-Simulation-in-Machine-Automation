@@ -44,3 +44,6 @@ Modelling of the manipulator comprises of modelling of several components such a
 * Rack and Pinion
 
 ### Hydraulics Model
+The model below shows the subsystem of hydraulic circuit for the individual cylinder. It consists of 4/3 valve and a cylinder. The valve has 4 inputs namely: supply pressure (constant pressure), tank pressure (constant zero), port A and port B pressure originating from the 
+cylinder block. The output flow from port A and B is the input to the cylinder along with the inputs velocity and displacement from the manipulator. The cylinder provides the force which goes into the manipulator to make movements. 
+
