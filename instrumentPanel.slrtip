@@ -1,0 +1,265 @@
+
+  <Object type="Desktop.Xpc.Designer.InstrumentPanel, Desktop.Xpc.Designer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InstrumentPanel2" children="Controls">
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label17" children="Controls">
+      <Property name="Text">Velocity</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">221, 318</Property>
+      <Property name="Name">Label17</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label16" children="Controls">
+      <Property name="Text">Position</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">419, 318</Property>
+      <Property name="Name">Label16</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label15" children="Controls">
+      <Property name="Text">Joint Angles</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">38, 318</Property>
+      <Property name="Name">Label15</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay13" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Extension_angle</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">38, 607</Property>
+      <Property name="Name">NumericDisplay13</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay1" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Tilt_angle</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">38, 508</Property>
+      <Property name="Name">NumericDisplay1</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay2" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Lift_angle</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">38, 429</Property>
+      <Property name="Name">NumericDisplay2</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay3" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Pinion_angle</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">38, 344</Property>
+      <Property name="Name">NumericDisplay3</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label14" children="Controls">
+      <Property name="Text">Cyl4_x</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">419, 625</Property>
+      <Property name="Name">Label14</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label8" children="Controls">
+      <Property name="Text">Cyl4_v</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">221, 625</Property>
+      <Property name="Name">Label8</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label13" children="Controls">
+      <Property name="Text">Cyl3_x</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">419, 536</Property>
+      <Property name="Name">Label13</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label7" children="Controls">
+      <Property name="Text">Cyl3_v</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">221, 536</Property>
+      <Property name="Name">Label7</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label12" children="Controls">
+      <Property name="Text">Cyl2_x</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">419, 456</Property>
+      <Property name="Name">Label12</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label11" children="Controls">
+      <Property name="Text">Cyl2_v</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">221, 456</Property>
+      <Property name="Name">Label11</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label10" children="Controls">
+      <Property name="Text">Cyl1_x</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">419, 372</Property>
+      <Property name="Name">Label10</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label6" children="Controls">
+      <Property name="Text">Cyl2_v</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">221, 452</Property>
+      <Property name="Name">Label6</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label9" children="Controls">
+      <Property name="Text">Cyl1_v</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">419, 372</Property>
+      <Property name="Name">Label9</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label5" children="Controls">
+      <Property name="Text">Cyl1_v</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">221, 372</Property>
+      <Property name="Name">Label5</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label4" children="Controls">
+      <Property name="Text">Extension</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">38, 630</Property>
+      <Property name="Name">Label4</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Tilt_angle" children="Controls">
+      <Property name="Text">Tilt_angle</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">38, 536</Property>
+      <Property name="Name">Tilt_angle</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label2" children="Controls">
+      <Property name="Text">Lift_angle</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">38, 452</Property>
+      <Property name="Name">Label2</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label1" children="Controls">
+      <Property name="Text">Pinion_angle</Property>
+      <Property name="UseCompatibleTextRendering">True</Property>
+      <Property name="Location">38, 372</Property>
+      <Property name="Name">Label1</Property>
+      <Property name="Size">100, 23</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay12" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl4_x</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">419, 597</Property>
+      <Property name="Name">NumericDisplay12</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay11" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl3_x</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">419, 508</Property>
+      <Property name="Name">NumericDisplay11</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay10" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl2_x</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">419, 428</Property>
+      <Property name="Name">NumericDisplay10</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay9" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl1_x</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">419, 344</Property>
+      <Property name="Name">NumericDisplay9</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay8" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl4_v</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">221, 597</Property>
+      <Property name="Name">NumericDisplay8</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay6" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl3_v</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">221, 508</Property>
+      <Property name="Name">NumericDisplay6</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay5" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl2_v</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">221, 428</Property>
+      <Property name="Name">NumericDisplay5</Property>
+    </Object>
+    <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay4" children="Controls">
+      <Property name="BindingSrcType">Signal</Property>
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcPath">Cyl1_v</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="Size">100, 25</Property>
+      <Property name="Location">221, 344</Property>
+      <Property name="Name">NumericDisplay4</Property>
+    </Object>
+    <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED1" children="Controls">
+      <Property name="BindingSrcPath">Switch/Threshold</Property>
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="BindingSrcType">Parameter</Property>
+      <Property name="Size">48, 40</Property>
+      <Property name="Location">83, 50</Property>
+      <Property name="Name">SwitchLED1</Property>
+    </Object>
+    <Object type="MW.Instruments.Knob, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Knob1" children="Controls">
+      <Property name="BindingSrcPath">/pr_Ps</Property>
+      <Property name="TargetName">TargetPC1</Property>
+      <Property name="BindingSrcType">Parameter</Property>
+      <Property name="Body">
+        <Property name="Radius">52</Property>
+      </Property>
+      <Property name="ScaleRange">
+        <Property name="Span">21500000</Property>
+      </Property>
+      <Property name="Size">240, 143</Property>
+      <Property name="Location">83, 140</Property>
+      <Property name="Name">Knob1</Property>
+    </Object>
+    <Property name="ClientSize">1680, 1050</Property>
+  </Object>
