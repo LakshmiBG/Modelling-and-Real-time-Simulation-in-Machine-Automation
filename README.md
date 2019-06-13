@@ -1,4 +1,4 @@
-# Modelling-and-Real-time-Simulation-in-Machine-Automation
+# Modelling and Real-time Simulation in Machine Automation
 The aim of this exercise is to build a simulation model of a 4 actuator degree-of-freedom (DOF) hydraulic loader as seen in below figure and to simulate it in real-time computer.
 ![image](https://user-images.githubusercontent.com/51742367/59420698-05b86880-8dd6-11e9-8efc-08302cd777d6.png)
 
